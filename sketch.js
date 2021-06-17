@@ -33,10 +33,9 @@ function setup(){
 function draw() {
   background(0);
   if (road.y>400){
-    road.y=height/2;
+    road.y=height/2
   }
-  jackson.x=mouseX;
-  drawSprites();
+  jackson.x=mouseX
+  drawSprites()
 }
-
 
